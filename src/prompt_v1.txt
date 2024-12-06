@@ -1,0 +1,36 @@
+"""
+    Given the following text fragment:
+    {context}
+    
+    For the event "{event_trigger}", please provide only the answers in the structured format below. If there is no specific mention for a question, respond with "Answer: no mention". Do not repeat the question text in your answer.
+
+    **Timing Information:**
+    1. Specific time of occurrence: [Answer here, or respond with "Answer: no mention"]
+    2. Duration: [Answer here, or respond with "Answer: no mention"]
+    3. Key time markers: [Answer here, or respond with "Answer: no mention"]
+
+    **Causal Information:**
+    1. Primary cause: [Answer here, or respond with "Answer: no mention"]
+    2. Primary consequence: [Answer here, or respond with "Answer: no mention"]
+
+    **Event Structure:**
+    1. Larger event: [Answer here, or respond with "Answer: no mention"]
+    2. Sub-events: [Answer here, or respond with "Answer: no mention"]
+
+    **Coreference Information:**
+    1. Other terms or phrases referring to this event: [Answer here, or respond with "Answer: no mention"]
+    2. Consistency across descriptions: [Answer here with "Answer: consistent" if descriptions are consistent, or describe inconsistencies; respond with "Answer: no mention" if no coreference information is available]
+
+    Please respond only with the structured information in the format provided above, without any additional explanations or question text.
+"""
+-------------------------------------------------------------------------------------------------------------------------------------
+"""
+    Here is a text fragment:
+    {context}
+    
+    For the event "{event_trigger}", read each item of the information below and indicate if each statement is correct or incorrect based on the text fragment.
+
+    {features}
+
+    Please respond with "Answer: correct" or "Answer: incorrect" for each item as shown above.
+"""
